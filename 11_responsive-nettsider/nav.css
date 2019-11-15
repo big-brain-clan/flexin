@@ -1,0 +1,31 @@
+#nav{
+  align-items: center;
+  padding: 15px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #959595;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: OpenSans,sans-serif,arial;
+}
+#nav::after{
+  content: '' ;
+  display:block;
+  width: 0;
+  height: 2px;
+  background: #377ADA;
+  transition: width .3s;
+}
+#nav:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+#nav:hover{
+  color: #BFBFBF;
+}
+nav{
+  display: flex;
+  background: #353535;
+  float: right;
+  margin-top: 10px;
+}
